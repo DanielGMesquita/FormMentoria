@@ -1,6 +1,3 @@
-/*font-family: 'Poppins', sans-serif;
-font-family: 'Staatliches', cursive;*/
-
 *{
     margin: 0;
     padding: 0;
@@ -86,7 +83,7 @@ fieldset + fieldset{
     flex-direction: column;
 }
 
-input:invalid{
+.page input:invalid{
     border: 1px solid #FF5374;
 }
 
