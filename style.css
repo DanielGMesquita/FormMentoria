@@ -175,3 +175,9 @@ footer .button{
     color: #FFFFFF;
     font-family: 'Staatliches';
 }
+
+footer .button:hover{
+    background: #960e29;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+}
