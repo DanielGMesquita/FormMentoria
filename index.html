@@ -26,10 +26,12 @@
                 <fieldset>
                     <div class="fieldset-settings">
                         <legend>Informações pessoais</legend>
-                        <div class="input-settings">
-                            <div id="name">
+                        <div class="name-settings">
+                            <div class="input-name">
                                 <label for="first-name">Nome</label>
                                 <input type="text" id="first-name" required>
+                            </div>
+                            <div class="input-name">
                                 <label for="last-name">Sobrenome</label>
                                 <input type="text" id="last-name" required>
                             </div>
@@ -40,7 +42,7 @@
                         </div>
                         <div class="input-settings">
                             <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
-                            <input type="password" id="password" required>
+                            <input type="password" id="password" required minlength="6">
                         </div>
                     </div>
                 </fieldset>
@@ -55,32 +57,38 @@
                 </fieldset>
                 <fieldset>
                     <div class="fieldset-settings">
-                        <legend>Seus horários disponíveis</legend>
-                        <legend>Primeira mentoria</legend>
-                        <div class="input-settings">
-                            <label for="date">Data <span>(DD/MM/AA)</span></label>
-                            <input type="date" id="date">
-                        </div>
-                        <div class="input-settings">
-                            <label for="start">Das</label>
-                            <input type="time" id="start">
-                        </div>
-                        <div class="input-settings">
-                            <label for="end">Até</label>
-                            <input type="time" id="end">
-                        </div>
-                        <legend>Segunda mentoria</legend>
-                        <div class="input-settings">
-                            <label for="date">Data <span>(DD/MM/AA)</span></label>
-                            <input type="date" id="date">
-                        </div>
-                        <div class="input-settings">
-                            <label for="start">Das</label>
-                            <input type="time" id="start">
-                        </div>
-                        <div class="input-settings">
-                            <label for="end">Até</label>
-                            <input type="time" id="end">
+                        <div class="time-settings">
+                            <legend>Seus horários disponíveis</legend>
+                            <h3>Primeira mentoria</h3>
+                            <div class="schedule">
+                                <div class="input-settings">
+                                    <label for="date">Data <span>(DD/MM/AA)</span></label>
+                                    <input type="date" id="date">
+                                </div>
+                                <div class="input-settings">
+                                    <label for="start">Das</label>
+                                    <input type="time" id="start">
+                                </div>
+                                <div class="input-settings">
+                                    <label for="end">Até</label>
+                                    <input type="time" id="end">
+                                </div>
+                            </div>
+                            <h3>Segunda mentoria</h3>
+                            <div class="schedule">
+                                <div class="input-settings">
+                                    <label for="date">Data <span>(DD/MM/AA)</span></label>
+                                    <input type="date" id="date">
+                                </div>
+                                <div class="input-settings">
+                                    <label for="start">Das</label>
+                                    <input type="time" id="start">
+                                </div>
+                                <div class="input-settings">
+                                    <label for="end">Até</label>
+                                    <input type="time" id="end">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </fieldset>
