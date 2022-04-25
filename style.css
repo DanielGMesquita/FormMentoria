@@ -138,6 +138,10 @@ fieldset h3{
     padding-bottom: 8px;
 }
 
+div + h3{
+    padding-top: 16px;
+}
+
 .schedule{
     display: flex;
     gap:10px;
